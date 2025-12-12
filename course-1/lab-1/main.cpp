@@ -37,7 +37,7 @@ int main() {
     cout << "Enter value for x, y, z: ";
     cin >> x >> y >> z;
 
-    Cmin = (x < y + z) ? x : x + z;
+    Cmin = (x < y + z) ? x : y + z;
     Cmax = (pow(x, 2 > y) ? pow(x, 2) : y);
 
     numerator = Cmin + exp(x);
